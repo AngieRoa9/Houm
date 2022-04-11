@@ -1,0 +1,77 @@
+.carousel-control-next-icon{
+ color:#ff452b;
+}
+
+.img-contro{
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ff452b;
+}
+
+h1{
+    text-transform: capitalize;
+    color: #ff452b;
+}
+
+.contentPokemon{
+    display: flex;
+    align-items: flex-start;
+}
+
+.p-page{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.b-page{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ff452b;
+}
+
+.table {
+    border-color: #ff452b;
+}
+
+.table-dark {
+    --bs-table-bg: #ff452b;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #ff452b;
+}
+
+.pl-2{
+    padding-left: 2rem;
+}
+
+.pt-3{
+    padding-top: 3rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ff452b;
+}
+
+td{
+    text-transform: capitalize;
+}
+
+.img-back{
+    width: 25px;
+    height: 25px;
+}
+
+.titulo{
+    display: flex;
+}

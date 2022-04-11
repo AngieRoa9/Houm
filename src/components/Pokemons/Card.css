@@ -1,0 +1,220 @@
+body{
+    overflow-x: clip;
+}
+
+.card{
+ width: 20rem;
+ margin-bottom: 1rem;
+}
+
+.card-title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-body{
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.imgRedonda {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+}
+
+.imgIcon {
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;    
+    height: 14rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff452b;
+    border-color: rgba(255, 69, 43, 0.5);
+    font-size: 14px;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #9e1806;
+    border-color: rgba(255, 69, 43, 0.5);
+}
+
+.btn-primary:active{
+    color: #fff;
+    background-color: #9e1806;
+    border-color: rgba(255, 69, 43, 0.5);
+}
+
+.btn-primary:focus{
+  color: #fff;
+  background-color: #9e1806;
+  border-color: rgba(255, 69, 43, 0.5);
+}
+
+.space-btn{
+    justify-content: center;
+    display: flex;
+}
+
+.pokemonList{
+    display: flex;
+    flex-direction: row;
+}
+
+.h5-card {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ff452b;
+    line-height: 15px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ff452b;
+    padding-left: 3rem;
+}
+
+.b-card{
+    text-transform: capitalize;
+    color: #ff452b;
+    font-size: 14px;
+}
+
+.p-card{
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.experience{
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+}
+
+.col-12 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemonsCard{
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: clip;
+    margin: 1rem 2rem;
+}
+
+.btn-light {
+    color: #ff452b;
+    background-color: #f8f9fa;
+    border-color: #ff452b;
+    width: 78px;
+    height: 78px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50px;
+}
+
+.btn-light:hover {
+    color: #ff452b;
+    background-color: #ff442b1d;
+    border-color: #ff452b;
+}
+
+.btn-light:active {
+    color: #ff452b;
+    background-color: #ff442b1d;
+    border-color: #ff452b;
+}
+
+.botones{
+    justify-content: center;
+    padding-bottom: 3rem;
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+}
+
+.grass {
+    background: linear-gradient(0deg, rgba(113,209,10,1) 0%, rgba(23,140,2,1) 100%);
+  }
+  
+  .fire {
+    background: linear-gradient(0deg, #ff452b 0%, #ff6f00 100%);
+  }
+  
+  .water {
+    background: linear-gradient(0deg, rgb(38, 186, 235) 0%, rgb(14, 1, 131) 100%);
+  }
+  
+  .electric {
+    background: linear-gradient(0deg, rgba(240,195,13,1) 0%, rgba(209,158,16,1) 100%);
+  }
+  
+  .ice {
+    background: linear-gradient(0deg, rgba(166,250,238,1) 0%, rgba(16,198,209,1) 100%);
+  }
+  
+  .fighting {
+    background: linear-gradient(0deg, rgba(214,0,0,1) 0%, rgba(22,14,0,1) 100%);
+  }
+  
+  .poison {
+    background: linear-gradient(0deg, rgba(241,157,218,1) 0%, rgba(206,61,249,1) 100%);
+  }
+  .ground {
+    background: linear-gradient(0deg, rgba(176,128,21,1) 0%, rgba(106,55,3,1) 100%);
+  }
+  
+  .psychic {
+    background: linear-gradient(0deg, rgba(196,96,235,1) 0%, rgba(131,9,187,1) 100%);
+  }
+  
+  .ghost {
+    background: linear-gradient(0deg, rgba(5,103,227,1) 0%, rgba(179,29,253,1) 100%);
+  }
+  
+  .bug {
+    background: linear-gradient(0deg, rgba(178,209,10,1) 0%, rgba(91,208,11,1) 100%);
+  }
+  
+  .rock {
+    background: linear-gradient(0deg, rgba(181,181,181,1) 0%, rgba(71,71,71,1) 100%);
+  }
+  
+  .dragon {
+    background: linear-gradient(0deg, rgba(29,174,255,1) 0%, rgba(9,15,156,1) 100%);
+  }
+  
+  .normal {
+    background-color: rgb(168, 162, 157);
+  }
+  
+  .fairy {
+    background: linear-gradient(0deg, rgba(252,186,247,1) 0%, rgba(233,105,198,1) 100%);
+  }
+  
+  .tipo{
+      height: 15px;
+  }
